@@ -15,5 +15,18 @@
         android:layout_height="wrap_content"
         android:text="첫번째 다른 화면으로 이동하기"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="전달할 메세지 입력"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="두 번째 화면으로 메세지 전달하기"/>
+
+
 
 </LinearLayout>
