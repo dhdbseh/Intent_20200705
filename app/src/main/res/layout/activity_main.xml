@@ -5,9 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="첫번째 다른 화면으로 이동하기"/>
 
 
 </LinearLayout>
