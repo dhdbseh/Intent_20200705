@@ -7,6 +7,10 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    // 숫자 1000 대신 코드에 어떤 요청인지 읽기 쉽도록 하는 조치
+    //val REQ CODE FOR NICKNAME = 1000
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -71,6 +75,7 @@ class MainActivity : AppCompatActivity() {
                 val newNickName = data?.getStringExtra("nick")
 
                 nickNameTxt.text = newNickName
+
             }
         }
     }
