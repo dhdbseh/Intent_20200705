@@ -17,4 +17,10 @@
         android:textSize="25sp"
         android:textColor="#FFFFFF"/>
 
+    <Button
+        android:id="@+id/moveToBackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이전 화면으로 돌아가기"/>
+
 </LinearLayout>
